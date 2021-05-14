@@ -1,9 +1,9 @@
 {
-   "name": "savage-eberron-rules",
+   "name": "seas-of-eberron",
    "title": "Savage Tales: Seas of Eberron",
    "description": "This is the content for the Seas of Eberron Savage Tales.",
    "author": "Freewolf2000",
-   "version": "0.1.0",
+   "version": "0.1.1",
    "minimumCoreVersion": "0.7.9",
    "compatibleCoreVersion":"0.7.9",
    "url": "https://github.com/Freewolf2000/seas-of-eberron",
