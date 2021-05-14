@@ -1,0 +1,58 @@
+{
+   "name": "savage-eberron-rules",
+   "title": "Savage Tales: Seas of Eberron",
+   "description": "This is the content for the Seas of Eberron Savage Tales.",
+   "author": "Freewolf2000",
+   "version": "0.1.0",
+   "minimumCoreVersion": "0.7.9",
+   "compatibleCoreVersion":"0.7.9",
+   "url": "https://github.com/Freewolf2000/seas-of-eberron",
+   "manifest": "https://raw.githubusercontent.com/Freewolf2000/seas-of-eberron/main/seas-of-eberron/module.json",
+   "download": "https://github.com/Freewolf2000/seas-of-eberron/raw/main/seas-of-eberron.zip",
+   "packs": [
+     {
+       "label": "Seas of Eberron Bestiary",
+       "name": "seas-of-eberron-bestiary",
+       "entity": "Actor",
+       "path": "packs/seas-of-eberron-bestiary.db",
+       "system": "swade",
+       "module": "seas-of-eberron"
+     },
+     {
+       "label": "Seas of Eberron Rules",
+       "name": "seas-of-eberron-rules",
+       "entity": "JournalEntry",
+       "path": "packs/seas-of-eberron-rules.db",
+       "system": "swade",
+       "module": "seas-of-eberron"
+     },
+     {
+       "label": "Seas of Eberron Tables",
+       "name": "seas-of-eberron-tables",
+       "entity": "RollTable",
+       "path": "packs/seas-of-eberron-tables.db",
+       "system": "swade",
+       "module": "seas-of-eberron"
+     },
+     {
+       "label": "Seas of Eberron Tales",
+       "name": "seas-of-eberron-tales",
+       "entity": "JournalEntry",
+       "path": "packs/seas-of-eberron-tales.db",
+       "system": "swade",
+       "module": "seas-of-eberron"
+     }
+   ],
+   "systems": ["swade"],
+   "dependencies": [
+     {
+        "type": "module",
+        "name": "compendium-folders",
+        "manifest": "https://raw.githubusercontent.com/earlSt1/vtt-compendium-folders/master/module.json"
+      },
+      {
+        "name": "swade",
+        "type": "system"
+      }
+    ]
+}
