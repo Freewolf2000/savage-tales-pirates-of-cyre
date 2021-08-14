@@ -1,0 +1,50 @@
+{
+   "name": "savage-tales-pirates-of-cyre",
+   "title": "Savage Tales: Pirates of Cyre",
+   "description": "This is the content for the Pirates of Cyre advenuture arc.",
+   "author": "Freewolf2000",
+   "version": "0.1.0",
+   "minimumCoreVersion": "0.7.9",
+   "compatibleCoreVersion":"0.8.8",
+   "url": "https://github.com/Freewolf2000/savage-tales-pirates-of-cyre",
+   "manifest": "https://raw.githubusercontent.com/Freewolf2000/savage-tales-pirates-of-cyre/main/savage-tales-pirates-of-cyre/module.json",
+   "download": "https://github.com/Freewolf2000/savage-tales-pirates-of-cyre/raw/main/savage-tales-pirates-of-cyre.zip",
+   "packs": [
+     {
+       "label": "Pirates of Cyre Bestiary",
+       "name": "pirates-of-cyre-bestiary",
+       "entity": "Actor",
+       "path": "packs/pirates-of-cyre-bestiary.db",
+       "system": "swade",
+       "module": "savage-tales-pirates-of-cyre"
+     },
+     {
+       "label": "Pirates of Cyre Tables",
+       "name": "pirates-of-cyre-tables",
+       "entity": "RollTable",
+       "path": "packs/pirates-of-cyre-tables.db",
+       "system": "swade",
+       "module": "savage-tales-pirates-of-cyre"
+     },
+     {
+       "label": "Pirates of Cyre Tales",
+       "name": "pirates-of-cyre-tales",
+       "entity": "JournalEntry",
+       "path": "packs/pirates-of-cyre-tales.db",
+       "system": "swade",
+       "module": "savage-tales-pirates-of-cyre"
+     }
+   ],
+   "systems": ["swade"],
+   "dependencies": [
+     {
+        "type": "module",
+        "name": "compendium-folders",
+        "manifest": "https://raw.githubusercontent.com/earlSt1/vtt-compendium-folders/master/module.json"
+      },
+      {
+        "name": "swade",
+        "type": "system"
+      }
+    ]
+}
