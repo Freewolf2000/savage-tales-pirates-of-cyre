@@ -3,7 +3,7 @@
    "title": "Savage Tales: Pirates of Cyre",
    "description": "This is the content for the Pirates of Cyre advenuture arc.",
    "author": "Freewolf2000",
-   "version": "0.3.3",
+   "version": "0.3.4",
    "minimumCoreVersion": "0.7.9",
    "compatibleCoreVersion":"0.8.9",
    "url": "https://github.com/Freewolf2000/savage-tales-pirates-of-cyre",
@@ -15,6 +15,14 @@
        "name": "pirates-of-cyre-bestiary",
        "entity": "Actor",
        "path": "packs/pirates-of-cyre-bestiary.db",
+       "system": "swade",
+       "module": "savage-tales-pirates-of-cyre"
+     },
+     {
+       "label": "Pirates of Cyre Gear",
+       "name": "pirates-of-cyre-gear",
+       "entity": "Item",
+       "path": "packs/pirates-of-cyre-gear.db",
        "system": "swade",
        "module": "savage-tales-pirates-of-cyre"
      },
